@@ -1,0 +1,48 @@
+body {
+    font-family: Arial, sans-serif;
+}
+
+.container {
+    max-width: 600px;
+    margin: 0 auto;
+    padding: 20px;
+}
+
+h1 {
+    text-align: center;
+    color: blueviolet;
+}
+
+#tarefa-input {
+    width: 70%;
+    padding: 8px;
+    font-size: 16px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+   
+}
+
+#tarefa-list {
+    list-style-type: none;
+    padding: 0;
+    
+}
+
+.tarefa-item {
+    cursor: pointer;
+}
+
+.tarefa-item.completed {
+    text-decoration: line-through;
+
+}
+
+button {
+    background-color: darkmagenta;
+    color: #fff;
+    border: none;
+    font-weight: bold;
+    text-transform: uppercase;
+    cursor: pointer;
+
+
+}
